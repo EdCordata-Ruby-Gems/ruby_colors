@@ -45,18 +45,18 @@ color.web_safe  # => true
 ## Helper methods
 * `hex_to_rgb`
   ```ruby
-  RubyColors.hex_to_rgb('#000000') # => [0, 0, 0]
-  RubyColors.hex_to_rgb('#000')    # => [0, 0, 0]
-  RubyColors.hex_to_rgb('000')     # => [0, 0, 0]
+  ::RubyColors.hex_to_rgb('#000000') # => [0, 0, 0]
+  ::RubyColors.hex_to_rgb('#000')    # => [0, 0, 0]
+  ::RubyColors.hex_to_rgb('000')     # => [0, 0, 0]
   ```
 * `rgb_to_hex`
   ```ruby
-  RubyColors.rgb_to_hex( [0, 0, 0] ) # => 00000
-  RubyColors.rgb_to_hex(0, 0, 0)     # => 00000
+  ::RubyColors.rgb_to_hex( [0, 0, 0] ) # => 00000
+  ::RubyColors.rgb_to_hex(0, 0, 0)     # => 00000
   ```
 * `color_names`
   ```ruby
-  RubyColors.color_names
+  ::RubyColors.color_names
   # => {
   #      'FF0000' => ['Red'],
   #      'B3446C' => [ 'Raspberry Rose', 'Irresistible'],
@@ -65,7 +65,7 @@ color.web_safe  # => true
   ```
 * `web_safe_colors`
   ```ruby
-  RubyColors.web_safe_colors
+  ::RubyColors.web_safe_colors
   # => ['000000', '000033', '000066', ... ]
   ```
 
