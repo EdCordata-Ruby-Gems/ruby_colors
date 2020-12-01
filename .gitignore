@@ -1,0 +1,7 @@
+# IDE
+.idea/
+.atom/
+.vscode/
+
+# Gem builds
+ruby_colors-*.gem
