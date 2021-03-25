@@ -28,7 +28,7 @@ color = ::RubyColors.by_hex('FF0000')
 color = ::RubyColors.by_hex('#FF0000') 
 
 color = ::RubyColors.by_rgb( [255, 0, 0] )
-color = ::RubyColors.by_rgb( 255, 0, 0 )
+color = ::RubyColors.by_rgb(  255, 0, 0  )
 
 color = ::RubyColors.by_name('red')
 color = ::RubyColors.by_name('Red')
@@ -36,7 +36,7 @@ color = ::RubyColors.by_name('RED')
 
 color.hex       # => 'FF0000'
 color.short_hex # => 'FF0'
-color.rgb       # => [0, 0, 0]
+color.rgb       # => [225, 0, 0]
 color.names     # => ['Red']
 color.web_safe  # => true
 ```
@@ -52,7 +52,7 @@ color.web_safe  # => true
 * `rgb_to_hex`
   ```ruby
   ::RubyColors.rgb_to_hex( [0, 0, 0] ) # => 00000
-  ::RubyColors.rgb_to_hex(0, 0, 0)     # => 00000
+  ::RubyColors.rgb_to_hex(  0, 0, 0  ) # => 00000
   ```
 * `color_names`
   ```ruby
